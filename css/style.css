@@ -535,6 +535,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .certificat__org-box img {
   width: 100px;
   height: 55px;
@@ -544,8 +545,8 @@ header {
   margin-left: 100px;
 }
 
-.certificat__img-box img{
-}
+.certificat__img-box img {}
+
 /* certificat */
 
 /* Main  */
