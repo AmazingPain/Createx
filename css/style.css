@@ -510,4 +510,45 @@ header {
 
 /* directions */
 
+/* certificat */
+.certificat {
+  padding-bottom: 180px;
+  margin-bottom: -40px;
+}
+
+.certificat__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cetrificat__content .heading__subtitle {}
+
+.cetrificat__content .heading__title {
+  margin-bottom: 48px;
+}
+
+
+.cetificat__heading {}
+
+.certificat__org-box {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.certificat__org-box img {
+  width: 100px;
+  height: 55px;
+}
+
+.certificat__img-box {
+  margin-left: 100px;
+}
+
+.certificat__img-box img{
+  /* width: 100%;
+  height: 100%; */
+  
+}
+/* certificat */
+
 /* Main  */
