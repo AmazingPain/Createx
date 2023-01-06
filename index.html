@@ -11,12 +11,17 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <title>Createx</title>
 </head>
 
-<body>
+<body id="body">
   <div class="wrapper">
+    <div class="overlay "></div>
     <header class="header">
+      <a href="#" class="burger">
+        <span></span>
+      </a>
       <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
@@ -26,9 +31,7 @@
             <nav class="header__nav">
               <ul class="header__nav-list">
                 <li class="header__nav-item">
-                  <a href="#" class="header__nav-link">
-                    About Us
-                  </a>
+                  <a href="#about" class="header__nav-link">About Us</a>
                 </li>
                 <li class="header__nav-item">
                   <a href="#" class="header__nav-link">Courses</a>
@@ -45,7 +48,7 @@
               </ul>
             </nav>
             <div class="header__user">
-              <a class="header__user-btn button" href="#">Get consultation</a>
+              <a class="header__user-btn button" href="#contact">Get consultation</a>
               <div class="header__user-panel">
                 <a class="header__user-panel-btn " href="#">Log in</a>
                 /
@@ -106,7 +109,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__inner">
             <div class="about__createx">
@@ -1097,7 +1100,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <div class="contact__inner">
             <div class="contact__content">
@@ -1237,6 +1240,166 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <div class="footer__top-col">
+              <a href="#" class="footer__logo logo">
+                <img src="images/white-logo.png" alt="">
+              </a>
+              <div class="footer__top-text">
+                Createx Online School is a leader in online studying. We have lots of courses and programs from the main
+                market experts. We provide relevant approaches to online learning, internships and employment in the
+                largest companies in the country.
+              </div>
+              <ul class="footer__follow-socials">
+                <li class="footer__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+                <li class="footer__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+                <li class="footer__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+                <li class="contact__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+                <li class="footer__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+                <li class="footer__follow-social">
+                  <a href="#" class="footer__follow-link">
+                    <img src="images/icons/Pin.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__top-col">
+              <div class="footer_top-title">
+                COURSES
+              </div>
+              <ul class="footer__links">
+                <li class="footer__link">
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__top-col">
+              <div class="footer_top-title">
+                SITE MAP
+              </div>
+              <ul class="footer__links">
+                <li class="footer__link">
+                  <a href="#">
+                    Marketing
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    Marketing
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    Marketing
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    Marketing
+                  </a>
+                </li>
+                <li class="footer__link">
+                  <a href="#">
+                    Marketing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__top-col">
+              <div class="footer_top-title">
+                CONTACT US
+              </div>
+              <ul class="footer__links">
+                <li class="footer__link footel__link-mail">
+                  <a href="mailto:hello@createx.com">
+                    hello@createx.com
+                  </a>
+                </li>
+                <li class="footer__link footel__link-tel">
+                  <a href="tel:4055550128">
+                    (405) 555-0128
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__top-col">
+              <div class="footer_top-title">
+                SIGN UP TO OUR NEWSLETTER
+              </div>
+              <form class="footer__form">
+                <div class="footer__form-input">
+                  <input type="email" placeholder="Email address">
+                </div>
+                <div class="footer__form-desc">
+                  *Subscribe to our newsletter to receive communications and early updates
+                  from Createx SEO Agency.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" footer__bot">
+        <div class="container">
+          <div class="footer__bot-inner">
+            <div class="footer__copy">
+              <p class="footer__copy-text">
+                © All rights reserved.
+                Made with
+                <img src="images/icons/Heart.svg" alt="">
+                by Createx Studio
+              </p>
+            </div>
+            <a href="#body" class="footer__bot-btn">
+              GO TO TOP
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
