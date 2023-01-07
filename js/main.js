@@ -12,6 +12,27 @@ $(function () {
     infinite: true,
     draggable: false,
     waitForAnimate: false,
+    responsive:
+      [
+        {
+          breakpoint: 1100,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 750,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ]
   });
 
   $('.team__slider-prev').on('click', function (e) {

@@ -213,6 +213,7 @@ header {
 
 .header__content {
   margin-right: 25px;
+  max-width: 500px;
 }
 
 .header__play {
@@ -242,7 +243,6 @@ header {
   font-size: 64px;
   line-height: 130%;
   letter-spacing: 1px;
-  max-width: 500px;
   margin-bottom: 60px;
   color: #1E212C;
 }
@@ -430,30 +430,15 @@ header {
 .directions__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .directions__list-item {
   max-width: 390px;
-  margin-right: 30px;
   margin-bottom: 30px;
+  margin-right: 5px;
 }
 
-.directions__list-item:nth-child(3) {
-  margin-right: 0;
-}
-
-.directions__list-item:nth-child(4) {
-  margin-bottom: 0;
-}
-
-.directions__list-item:nth-child(5) {
-  margin-bottom: 0;
-}
-
-.directions__list-item:nth-child(6) {
-  margin-right: 0;
-  margin-bottom: 0;
-}
 
 .directions__list-link {
   display: flex;
@@ -474,6 +459,10 @@ header {
 
 .directions__image-box {
   overflow: hidden;
+}
+
+.directions__image-box img {
+  width: 100%;
 }
 
 .directions__link-content {
@@ -566,6 +555,12 @@ header {
   margin-left: 100px;
 }
 
+.certificat__img-box img {
+  width: 100%;
+}
+
+
+
 .certificat__img-box img {}
 
 /* certificat */
@@ -627,6 +622,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .team__socials {
