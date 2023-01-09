@@ -103,8 +103,7 @@
   .header__top-inner {
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
-    padding: 100px 0;
+    justify-content: center;
   }
 
   .header__logo {
@@ -126,8 +125,8 @@
 
   .header__nav-link {
     display: block;
-    padding: 30px 0;
-  }
+    padding: 20px 0;
+}
 
   .header__user {
     flex-direction: column-reverse;
@@ -152,10 +151,38 @@
   .team {
     padding: 60px 0;
   }
+
+  .program__inner {
+    justify-content: flex-start;
+    padding-left: 30%;
+  }
+
+  .program__image {
+    display: none;
+  }
 }
 
 /* 1100++++++++++++++++++++++++++++++++++++++++++++++ */
+@media (max-width:1000px) {
+  .questions__image-box {
+    margin-right: 15px;
+    max-width: 350px;
+  }
 
+  .footer__top-inner {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.footer__top-col {
+  margin-bottom: 15px;
+}
+.footer__top-text {
+  margin-bottom: 15px;
+}
+
+}
 
 /* 900++++++++++++++++++++++++++++++++++++++++++++++ */
 @media (max-width: 900px) {
@@ -255,6 +282,119 @@
     padding-bottom: 60px;
   }
 
+  .test__heading {
+    margin-bottom: 20px;
+  }
+
+  .test__quote::before {
+    display: none;
+  }
+
+  .test__slide {
+    padding: 20px;
+  }
+
+  .test__arrow {
+    display: none;
+  }
+
+  .test {
+    padding-bottom: 60px;
+  }
+
+  .jobs {
+    padding-bottom: 60px;
+  }
+
+
+  .jobs__heading {
+    margin-bottom: 20px;
+  }
+
+  .jobs__links {
+    width: 130px;
+    height: 100px;
+  }
+
+  .program {
+    padding: 60px 0;
+  }
+
+  .program__inner {
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+
+  .blog {
+    padding-bottom: 60px;
+  }
+
+  .blog__top {
+    margin-bottom: 20px;
+  }
+
+  .blog__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .blog__item {
+    margin-bottom: 10px;
+  }
+
+  .contact {
+    padding-bottom: 60px;
+  }
+
+  .contact__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact__content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact__heading {
+    margin-bottom: 20px;
+  }
+
+  .contact__info {
+    margin-bottom: 20px;
+  }
+
+  .contact__info-item {
+    margin-bottom: 10px;
+  }
+
+  .contact__info-link {
+    font-size: 16px;
+  }
+
+  .contact__follow-title {
+    margin-bottom: 15px;
+  }
+
+  .contact__map {
+    height: 380px;
+  }
+
+  .questions {
+    padding-bottom: 60px;
+  }
+
+  .questions__heading {
+    margin-bottom: 20px;
+  }
+
+  .questions__image-box {
+    display: none;
+  }
+
+  .questions__inner {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 800px) {
@@ -277,13 +417,22 @@
     margin-bottom: 20px;
   }
 
-  .test__heading {
-    margin-bottom: 20PX;
-    text-align: center;
+  .test__quote {
+    font-size: 18px;
+    line-height: 150%;
   }
 
+  .test__slider-wrapper {
+    padding: 0;
+  }
 
+  .program__heading {
+    margin-bottom: 20px;
+  }
 
+  .program__acc-item {
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -369,9 +518,57 @@
 
   .directions__link-btn::after {
     top: 4px;
+  }
+
+  .jobs__icons {
+    justify-content: space-evenly;
 
   }
 
+  .jobs__links {
+    width: 110px;
+    height: 70px;
+  }
+
+  .program__acc-link {
+    padding-left: 20px;
+    font-size: 17px;
+  }
+
+  .program__acc-head::before, .program__acc-head::after {
+    width: 10px;
+  }
+
+  .blog__link-btn::after {
+    top: 2px;
+  }
+
+  .contact__map {
+    display: none;
+  }
+
+  .qustions__form-row {
+    flex-wrap: wrap;
+  }
+
+  .qustions__form-row .questions__text-label {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .qustions__form-checkbox {
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.questions__checkbox-label {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.questions__form-btn {
+  max-width: 200px;
+}
 
 }
 
@@ -389,6 +586,26 @@
   .team__image-box {
     max-width: 300px;
     margin: 0 auto 16px;
+  }
+
+  .test__slider-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .program__inner {
+    padding-left: 0;
+  }
+
+  .program__content {
+    margin-right: 0;
+  }
+
+  .program__acc-link span {
+    font-size: 16px;
+  }
+
+  .blog__item {
+    max-width: 300px;
   }
 }
 
